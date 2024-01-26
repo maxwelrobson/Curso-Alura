@@ -1,7 +1,7 @@
-let numero = prompt('Digite um número:');
-let contador = 0;
+let nota = prompt('Digite sua nota:');
 
-while(contador <= numero) {
-    console.log(contador++);
-    
+if(nota >= 7) {
+    console.log('Aprovado');
+} else {
+    console.log('Reprovado');
 }
