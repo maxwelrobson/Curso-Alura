@@ -1,7 +1,3 @@
-let nota = prompt('Digite sua nota:');
-
-if(nota >= 7) {
-    console.log('Aprovado');
-} else {
-    console.log('Reprovado');
+function mensagem() {
+    console.log('Olá, mundo!')
 }
