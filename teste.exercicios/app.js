@@ -1,5 +1,3 @@
-function calculoIMC(alt, peso) {
-    let imc = peso / (alt * alt);
-}
+let nomes = ['Max', 'Duda', 'Sofia'];
 
-console.log(calculoIMC);
+console.log(nomes[2]);
