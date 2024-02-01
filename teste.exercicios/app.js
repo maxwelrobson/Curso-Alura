@@ -1,6 +1,5 @@
-function multiplicado(numero) {
-    return numero * numero;
+function calculoIMC(alt, peso) {
+    let imc = peso / (alt * alt);
 }
 
-let resultado = multiplicado(9);
-console.log(resultado);
+console.log(calculoIMC);
